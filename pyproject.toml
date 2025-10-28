@@ -1,0 +1,36 @@
+[project]
+name = "py-project-template"  # Replace with your project name
+version = "0.1.0"
+description = "This is a Python project template, configured with development tools."  # Replace with your project description
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "yuenherny", email = "yuenhern.yu@gmail.com"},
+]
+keywords = ["Python", "project", "template"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+]
+
+requires-python = ">=3.11"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.1.3",
+    "pre-commit>=3.5.0",
+    "mypy>=1.7.0",
+]
+
+test = [
+    "pytest>=7.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yuenherny/py-project-template"
+Repository = "https://github.com/yuenherny/py-project-template.git"
