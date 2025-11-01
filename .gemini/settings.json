@@ -1,8 +1,10 @@
 {
-    "contextFileName": "../AGENTS.md",
-    "general": {
-        "checkpointing": {
-            "enabled": true
-        }
+  "context": {
+    "fileName": "../AGENTS.md"
+  },
+  "general": {
+    "checkpointing": {
+      "enabled": true
     }
+  }
 }
