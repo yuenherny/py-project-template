@@ -8,7 +8,7 @@ A template for Python projects with a standard structure and configurations for 
 - Virtual environment management with `uv`
 - VS Code debugging configurations for FastAPI and pytest
 - Development tools setup with `pre-commit`, `ruff`, and `mypy`
-- AI-assisted coding with GitHub Copilot
+- **AI-assisted coding configured to work with GitHub Copilot Chat and Gemini Code Assist and CLI**
 
 ## Getting Started
 
